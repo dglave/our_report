@@ -25,4 +25,10 @@ tatooine <- starwars %>%
   filter(homeworld == "Tatooine")
 ```
 
+```{r}
+
+ggplot(data = tatooine, aes(x = birth_year, y = height)) +
+  geom_point()
+
+```
 
