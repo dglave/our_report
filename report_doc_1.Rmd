@@ -1,0 +1,19 @@
+---
+title: "Report Doc"
+author: "Dylan Glave"
+date: "1/14/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+
+```
+
+
+```{r}
+ggplot(data = starwars, aes(x = birth_year, y = height)) +
+  geom_point()
+```
+
