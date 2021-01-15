@@ -17,3 +17,12 @@ ggplot(data = starwars, aes(x = birth_year, y = height)) +
   geom_point()
 ```
 
+Just realized I wasn't supposed to make the graph until now... So I'll edit the df
+
+
+```{r}
+tatooine <- starwars %>% 
+  filter(homeworld == "Tatooine")
+```
+
+
